@@ -2,8 +2,8 @@
     "name": "enklare-development/laravel-gelf-logger",
     "type": "library",
     "description": "Fork of the hedii/laravel-gelf-logger project with extended support for HttpTransport",
-    "keywords": ["relevant","tags","go","here"],
-    "homepage": "https://yourcompany.com",
+    "keywords": ["laravel", "graylog", "gelf", "http", "enklare"],
+    "homepage": "https://www.enklare.se",
     "license": "MIT",
     "authors": [
         {
