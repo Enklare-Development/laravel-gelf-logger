@@ -1,29 +1,27 @@
 {
-    "name": "hedii/laravel-gelf-logger",
-    "description": "A Laravel package to send logs to a gelf compatible backend like graylog",
+    "name": "enklare-development/laravel-gelf-logger",
     "type": "library",
+    "description": "Fork of the hedii/laravel-gelf-logger project with extended support for HttpTransport",
+    "keywords": ["relevant","tags","go","here"],
+    "homepage": "https://yourcompany.com",
     "license": "MIT",
-    "keywords": [
-        "hedii",
-        "laravel-gelf",
-        "gelf",
-        "udp",
-        "log",
-        "logging",
-        "graylog",
-        "graylog2",
-        "laravel",
-        "php"
-    ],
     "authors": [
         {
-            "name": "hedii",
-            "homepage": "https://hedichaibi.com"
+            "name": "Pierre Wahlberg",
+            "email": "pierre.wahlberg@enklare.se",
+            "homepage": "https://www.enklare.se",
+            "role": "Developer"
+        },
+        {
+            "name": "Christian Nilsson",
+            "email": "christian.nilsson@enklare.se",
+            "homepage": "https://www.enklare.se",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/hedii/laravel-gelf-logger/issues",
-        "source": "https://github.com/hedii/laravel-gelf-logger"
+        "issues": "https://github.com/enklare-development/laravel-gelf-logger/issues",
+        "source": "https://github.com/enklare-development/laravel-gelf-logger"
     },
     "require": {
         "php": "^7.2.5",
