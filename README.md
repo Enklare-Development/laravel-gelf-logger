@@ -2,8 +2,11 @@
 Fork of the hedii/laravel-gelf-logger project with support for HttpTransport.
 
 # Links to original project:
-* Github: https://github.com/enklare-development/laravel-gelf-logger
-* Packagist: https://packagist.org/packages/enklare-development/laravel-gelf-logger
+* Github: https://github.com/hedii/laravel-gelf-logger
+* Packagist: https://packagist.org/packages/hedii/laravel-gelf-logger
+
+# This projects packagist page
+https://packagist.org/packages/enklare-development/laravel-gelf-logger
 
 
 # Laravel Gelf Logger
