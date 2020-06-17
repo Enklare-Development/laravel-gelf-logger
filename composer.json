@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "Pierre Wahlberg",
-            "email": "pierre.wahlberg@enklare.se",
+            "email": "pierre.vahlberg@enklare.se",
             "homepage": "https://www.enklare.se",
             "role": "Developer"
         },
@@ -29,6 +29,7 @@
         "graylog2/gelf-php": "^1.6"
     },
     "require-dev": {
+        "php": "^7.2",
         "orchestra/testbench": "^5.0"
     },
     "autoload": {
