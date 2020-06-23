@@ -81,11 +81,13 @@ class GelfLoggerFactory
         foreach ($this->parseProcessors($config) as $processor) {
             $handler->pushProcessor(new $processor);
         }
-        
-        if($config['filtered_handler'] == true) {
+
+        if ($config['filtered_handler'] == true) {
             $handler = new FilterHandler(
                 $handler,
-                $this->level($config));
+                $this->level($config),
+                $this->level($config)
+            );
         }
 
         return new Logger($this->parseChannel($config), [$handler]);
@@ -105,13 +107,13 @@ class GelfLoggerFactory
         switch ($transport) {
             case 'tcp':
                 return new TcpTransport($host, $port);
-            break;
+                break;
             case 'http':
                 return new HttpTransport($host, $port, $path);
-            break;
+                break;
             default:
                 return new UdpTransport($host, $port);
-            break;
+                break;
         }
     }
 
@@ -160,7 +162,7 @@ class GelfLoggerFactory
      */
     protected function parseChannel(array $config): string
     {
-        if (! isset($config['name'])) {
+        if (!isset($config['name'])) {
             return $this->getFallbackChannelName();
         }
 
