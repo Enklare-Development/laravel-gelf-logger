@@ -110,18 +110,18 @@ return [
             'context_prefix' => null,
 
             // This optional option determines the prefix for 'extra' fields
-            // from the Monolog record. Default is null (no extra prefix)
+            // from the Monolog record. Default is null (no extra prefix) 
             'extra_prefix' => null,
         ],
     ],
 ];
 ```
 
-## Usage
+## Usage 
 
 Once you have modified the Laravel logging configuration, you can use the gelf log channel [as any Laravel log channel](https://laravel.com/docs/master/logging#writing-log-messages).
 
-### Example
+### Examples
 
 ```php
 // Explicitly use the gelf channel
